@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,27 @@
 		040097EE25BB56D00049722C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040097ED25BB56D00049722C /* ContentView.swift */; };
 		040097F025BB56D70049722C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040097EF25BB56D70049722C /* Assets.xcassets */; };
 		040097F325BB56D70049722C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040097F225BB56D70049722C /* Preview Assets.xcassets */; };
+		0400980625BB59140049722C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0400980525BB59140049722C /* GoogleService-Info.plist */; };
+		0400982E25BB5CE80049722C /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400982D25BB5CE80049722C /* OnboardingView.swift */; };
+		0400983125BB5D1E0049722C /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0400983025BB5D1E0049722C /* Extensions.swift */; };
+		0417BBDD25BB73CC002DEB1E /* SignInAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBDC25BB73CC002DEB1E /* SignInAppleButton.swift */; };
+		0417BBE425BB8599002DEB1E /* LoginInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBE325BB8599002DEB1E /* LoginInputView.swift */; };
+		0417BBE725BB94C2002DEB1E /* OnboardingHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBE625BB94C2002DEB1E /* OnboardingHeaderView.swift */; };
+		0417BBEB25BBA14B002DEB1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0417BBEA25BBA14B002DEB1E /* LaunchScreen.storyboard */; };
+		0417BBEE25BF1637002DEB1E /* SignUpNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBED25BF1637002DEB1E /* SignUpNameView.swift */; };
+		0417BBF125BF2A23002DEB1E /* SignUpPhoneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBF025BF2A23002DEB1E /* SignUpPhoneView.swift */; };
+		0417BBF925BF4CC5002DEB1E /* SignUpCreditCardViewPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBF825BF4CC5002DEB1E /* SignUpCreditCardViewPart1.swift */; };
+		0417BBFD25BF50B3002DEB1E /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBFC25BF50B3002DEB1E /* UserModel.swift */; };
+		0417BC0025BF61B2002DEB1E /* SignUpCreditCardViewPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BBFF25BF61B2002DEB1E /* SignUpCreditCardViewPart2.swift */; };
+		0417BC0325BF62BB002DEB1E /* SignUpEmailAndPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC0225BF62BB002DEB1E /* SignUpEmailAndPasswordView.swift */; };
+		0417BC0825BF738E002DEB1E /* SignUpUploadPictureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC0725BF738D002DEB1E /* SignUpUploadPictureView.swift */; };
+		0417BC0B25BF74A6002DEB1E /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC0A25BF74A6002DEB1E /* ImageManager.swift */; };
+		0417BC0E25C0729E002DEB1E /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC0D25C0729E002DEB1E /* test.swift */; };
+		0417BC1125C080FA002DEB1E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC1025C080FA002DEB1E /* ImagePicker.swift */; };
+		0417BC1425C08741002DEB1E /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC1325C08741002DEB1E /* DataService.swift */; };
+		0417BC1725C087A1002DEB1E /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC1625C087A1002DEB1E /* AuthService.swift */; };
+		0417BC1A25C088A2002DEB1E /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0417BC1925C088A2002DEB1E /* Structs.swift */; };
+		B5716F45AB15F4ACFF15C363 /* Pods_MobyMock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E2C65634399C3DF6178B9542 /* Pods_MobyMock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +41,29 @@
 		040097EF25BB56D70049722C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040097F225BB56D70049722C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		040097F425BB56D70049722C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0400980525BB59140049722C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0400982D25BB5CE80049722C /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		0400983025BB5D1E0049722C /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0417BBDC25BB73CC002DEB1E /* SignInAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInAppleButton.swift; sourceTree = "<group>"; };
+		0417BBE325BB8599002DEB1E /* LoginInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginInputView.swift; sourceTree = "<group>"; };
+		0417BBE625BB94C2002DEB1E /* OnboardingHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingHeaderView.swift; sourceTree = "<group>"; };
+		0417BBEA25BBA14B002DEB1E /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0417BBED25BF1637002DEB1E /* SignUpNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpNameView.swift; sourceTree = "<group>"; };
+		0417BBF025BF2A23002DEB1E /* SignUpPhoneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpPhoneView.swift; sourceTree = "<group>"; };
+		0417BBF825BF4CC5002DEB1E /* SignUpCreditCardViewPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCreditCardViewPart1.swift; sourceTree = "<group>"; };
+		0417BBFC25BF50B3002DEB1E /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		0417BBFF25BF61B2002DEB1E /* SignUpCreditCardViewPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpCreditCardViewPart2.swift; sourceTree = "<group>"; };
+		0417BC0225BF62BB002DEB1E /* SignUpEmailAndPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpEmailAndPasswordView.swift; sourceTree = "<group>"; };
+		0417BC0725BF738D002DEB1E /* SignUpUploadPictureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpUploadPictureView.swift; sourceTree = "<group>"; };
+		0417BC0A25BF74A6002DEB1E /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
+		0417BC0D25C0729E002DEB1E /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		0417BC1025C080FA002DEB1E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0417BC1325C08741002DEB1E /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		0417BC1625C087A1002DEB1E /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		0417BC1925C088A2002DEB1E /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
+		244CD79B1C04B8C13163E8E7 /* Pods-MobyMock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyMock.release.xcconfig"; path = "Target Support Files/Pods-MobyMock/Pods-MobyMock.release.xcconfig"; sourceTree = "<group>"; };
+		37D072E362A159B2F8FDCF7A /* Pods-MobyMock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MobyMock.debug.xcconfig"; path = "Target Support Files/Pods-MobyMock/Pods-MobyMock.debug.xcconfig"; sourceTree = "<group>"; };
+		E2C65634399C3DF6178B9542 /* Pods_MobyMock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MobyMock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5716F45AB15F4ACFF15C363 /* Pods_MobyMock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +83,8 @@
 			children = (
 				040097EA25BB56D00049722C /* MobyMock */,
 				040097E925BB56D00049722C /* Products */,
+				E100FCEEA6724211A7E344CD /* Pods */,
+				19B5E3CF0536E173F4B22A9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,11 +99,17 @@
 		040097EA25BB56D00049722C /* MobyMock */ = {
 			isa = PBXGroup;
 			children = (
-				040097EB25BB56D00049722C /* MobyMockApp.swift */,
-				040097ED25BB56D00049722C /* ContentView.swift */,
+				0400982825BB5C180049722C /* Model */,
+				0400982725BB5C150049722C /* Views */,
+				0400982A25BB5C690049722C /* Helpers */,
+				0400982625BB5C120049722C /* Utils */,
+				0400982325BB5C060049722C /* Firebase */,
 				040097EF25BB56D70049722C /* Assets.xcassets */,
+				0400983425BB5EA80049722C /* New Group */,
 				040097F425BB56D70049722C /* Info.plist */,
+				0400980525BB59140049722C /* GoogleService-Info.plist */,
 				040097F125BB56D70049722C /* Preview Content */,
+				0417BBEA25BBA14B002DEB1E /* LaunchScreen.storyboard */,
 			);
 			path = MobyMock;
 			sourceTree = "<group>";
@@ -69,6 +122,101 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		0400982325BB5C060049722C /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				0417BC1325C08741002DEB1E /* DataService.swift */,
+				0417BC1625C087A1002DEB1E /* AuthService.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		0400982625BB5C120049722C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0417BC0A25BF74A6002DEB1E /* ImageManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0400982725BB5C150049722C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0400982C25BB5C980049722C /* Subviews */,
+				0400982B25BB5C8F0049722C /* Screens */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0400982825BB5C180049722C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0417BBFC25BF50B3002DEB1E /* UserModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0400982A25BB5C690049722C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0400983025BB5D1E0049722C /* Extensions.swift */,
+				0417BC1925C088A2002DEB1E /* Structs.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0400982B25BB5C8F0049722C /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				040097EB25BB56D00049722C /* MobyMockApp.swift */,
+				040097ED25BB56D00049722C /* ContentView.swift */,
+				0400982D25BB5CE80049722C /* OnboardingView.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		0400982C25BB5C980049722C /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				0417BBDC25BB73CC002DEB1E /* SignInAppleButton.swift */,
+				0417BBE325BB8599002DEB1E /* LoginInputView.swift */,
+				0417BBE625BB94C2002DEB1E /* OnboardingHeaderView.swift */,
+				0417BBED25BF1637002DEB1E /* SignUpNameView.swift */,
+				0417BBF025BF2A23002DEB1E /* SignUpPhoneView.swift */,
+				0417BBF825BF4CC5002DEB1E /* SignUpCreditCardViewPart1.swift */,
+				0417BBFF25BF61B2002DEB1E /* SignUpCreditCardViewPart2.swift */,
+				0417BC0225BF62BB002DEB1E /* SignUpEmailAndPasswordView.swift */,
+				0417BC0725BF738D002DEB1E /* SignUpUploadPictureView.swift */,
+				0417BC0D25C0729E002DEB1E /* test.swift */,
+				0417BC1025C080FA002DEB1E /* ImagePicker.swift */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		0400983425BB5EA80049722C /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		19B5E3CF0536E173F4B22A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2C65634399C3DF6178B9542 /* Pods_MobyMock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E100FCEEA6724211A7E344CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37D072E362A159B2F8FDCF7A /* Pods-MobyMock.debug.xcconfig */,
+				244CD79B1C04B8C13163E8E7 /* Pods-MobyMock.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +224,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 040097F725BB56D70049722C /* Build configuration list for PBXNativeTarget "MobyMock" */;
 			buildPhases = (
+				1975831A4806183400075328 /* [CP] Check Pods Manifest.lock */,
 				040097E425BB56D00049722C /* Sources */,
 				040097E525BB56D00049722C /* Frameworks */,
 				040097E625BB56D00049722C /* Resources */,
+				5AB6EF4E1070411C1BE354CC /* [CP] Embed Pods Frameworks */,
+				1F51A26384030E94C2BE7190 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -127,19 +278,98 @@
 			buildActionMask = 2147483647;
 			files = (
 				040097F325BB56D70049722C /* Preview Assets.xcassets in Resources */,
+				0417BBEB25BBA14B002DEB1E /* LaunchScreen.storyboard in Resources */,
 				040097F025BB56D70049722C /* Assets.xcassets in Resources */,
+				0400980625BB59140049722C /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1975831A4806183400075328 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MobyMock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F51A26384030E94C2BE7190 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AB6EF4E1070411C1BE354CC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MobyMock/Pods-MobyMock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		040097E425BB56D00049722C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0417BC0825BF738E002DEB1E /* SignUpUploadPictureView.swift in Sources */,
+				0417BBF125BF2A23002DEB1E /* SignUpPhoneView.swift in Sources */,
+				0417BC0325BF62BB002DEB1E /* SignUpEmailAndPasswordView.swift in Sources */,
+				0417BC1125C080FA002DEB1E /* ImagePicker.swift in Sources */,
+				0417BC0025BF61B2002DEB1E /* SignUpCreditCardViewPart2.swift in Sources */,
+				0400982E25BB5CE80049722C /* OnboardingView.swift in Sources */,
+				0417BC1725C087A1002DEB1E /* AuthService.swift in Sources */,
+				0417BC0E25C0729E002DEB1E /* test.swift in Sources */,
+				0417BBEE25BF1637002DEB1E /* SignUpNameView.swift in Sources */,
+				0417BC0B25BF74A6002DEB1E /* ImageManager.swift in Sources */,
+				0417BC1425C08741002DEB1E /* DataService.swift in Sources */,
+				0417BBDD25BB73CC002DEB1E /* SignInAppleButton.swift in Sources */,
+				0417BC1A25C088A2002DEB1E /* Structs.swift in Sources */,
 				040097EE25BB56D00049722C /* ContentView.swift in Sources */,
 				040097EC25BB56D00049722C /* MobyMockApp.swift in Sources */,
+				0400983125BB5D1E0049722C /* Extensions.swift in Sources */,
+				0417BBF925BF4CC5002DEB1E /* SignUpCreditCardViewPart1.swift in Sources */,
+				0417BBE725BB94C2002DEB1E /* OnboardingHeaderView.swift in Sources */,
+				0417BBE425BB8599002DEB1E /* LoginInputView.swift in Sources */,
+				0417BBFD25BF50B3002DEB1E /* UserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +494,7 @@
 		};
 		040097F825BB56D70049722C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37D072E362A159B2F8FDCF7A /* Pods-MobyMock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -277,15 +508,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.moby.MobyMock.MobyMock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moby.MobyMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		040097F925BB56D70049722C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 244CD79B1C04B8C13163E8E7 /* Pods-MobyMock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,10 +531,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.moby.MobyMock.MobyMock;
+				PRODUCT_BUNDLE_IDENTIFIER = com.moby.MobyMock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
